@@ -107,7 +107,7 @@ export default function DataDrivenSection() {
 
           {/* Main Content */}
           <div className="flex-1 bg-gradient-to-br from-[#f2f6fa] to-[#e8f1f8] p-6 md:p-8 overflow-y-auto no-scrollbar">
-            <div className="flex flex-col xl:flex-row gap-6 mb-6 bg-gradient-to-r from-[#fae8ff]/70 via-[#f3e8ff]/50 to-[#e0f2fe]/70 p-6 md:p-8 rounded-[2rem]">
+            <div className="flex flex-col xl:flex-row gap-6 mb-6 bg-gradient-to-r from-[#fae8ff] via-[#f3e8ff] to-[#e0f2fe] p-5 md:p-6 rounded-[2rem] -mx-2 md:-mx-4">
               {/* Left Profile Card (Maria Simao) */}
               <div className="bg-white/95 backdrop-blur-md p-6 rounded-[1.5rem] border border-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.06)] flex-[0.45] min-w-[320px]">
                  <div className="flex justify-between items-center text-xs text-gray-500 font-semibold mb-6">
@@ -215,7 +215,7 @@ export default function DataDrivenSection() {
             </div>
 
             {/* Bottom Forms Area */}
-            <div className="flex flex-col lg:flex-row gap-6">
+            <div className="flex flex-col lg:flex-row gap-6 px-3 md:px-2">
               {/* Basic Details */}
               <div className="bg-white p-6 md:p-7 rounded-[1.5rem] border border-white shadow-[0_10px_30px_-10px_rgba(0,0,0,0.05)] flex-[0.4] min-w-[300px]">
                  <h4 className="font-bold text-[15px] text-gray-900 mb-5">Basic details</h4>
