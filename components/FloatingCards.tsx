@@ -39,7 +39,7 @@ export default function FloatingCards() {
             { name: 'Next.js', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" className="w-4 h-4 object-contain" /> },
             { name: 'TailwindCSS', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="TailwindCSS" className="w-4 h-4 object-contain" /> }
           ]}
-          avatarUrl="https://picsum.photos/seed/arieton/200/200"
+          avatarUrl="https://randomuser.me/api/portraits/men/32.jpg"
           delay={0.1}
           className="scale-[0.88] origin-bottom-right -rotate-[12deg] -left-[250px] top-[60px] z-0 hover:z-30 hover:scale-[1] hover:rotate-0 transition-all duration-500 hover:!shadow-[0_40px_80px_-20px_rgba(0,0,0,0.15)] cursor-pointer"
         />
@@ -57,7 +57,7 @@ export default function FloatingCards() {
             { name: 'NestJS', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" alt="NestJS" className="w-4 h-4 object-contain" /> },
             { name: 'TypeScript', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-4 h-4 object-contain" /> }
           ]}
-          avatarUrl="https://picsum.photos/seed/hannah/200/200"
+          avatarUrl="https://randomuser.me/api/portraits/women/44.jpg"
           delay={0.3}
           className="scale-[0.88] origin-bottom-left rotate-[12deg] -right-[250px] top-[60px] z-0 hover:z-30 hover:scale-[1] hover:rotate-0 transition-all duration-500 hover:!shadow-[0_40px_80px_-20px_rgba(0,0,0,0.15)] cursor-pointer"
         />
@@ -75,7 +75,7 @@ export default function FloatingCards() {
             { name: 'Nuxt.js', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original.svg" alt="Nuxt.js" className="w-4 h-4 object-contain" /> },
             { name: 'JavaScript', icon: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" className="w-4 h-4 object-contain" /> }
           ]}
-          avatarUrl="https://picsum.photos/seed/chad/200/200"
+          avatarUrl="https://randomuser.me/api/portraits/men/46.jpg"
           delay={0.2}
           initialY={60}
           className="z-20 top-0 left-0 shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] hover:scale-[1.05] transition-all duration-500 cursor-pointer"

@@ -30,7 +30,7 @@ export default function FeaturesSection() {
             {/* UI Mock Card */}
             <div className="bg-white rounded-2xl shadow-[0_20px_50px_-10px_rgba(0,0,0,0.05)] p-5 border border-white/50 w-full max-w-[320px]">
               <div className="flex items-center gap-4 mb-6 bg-gray-50 p-2.5 rounded-xl border border-gray-100">
-                <Image src="https://picsum.photos/seed/ann/100/100" width={36} height={36} alt="Ann Hall" className="rounded-full shadow-sm" />
+                <Image src="https://randomuser.me/api/portraits/women/68.jpg" width={36} height={36} alt="Ann Hall" className="rounded-full shadow-sm" />
                 <div>
                   <h4 className="font-bold text-sm text-gray-900">Ann Hall</h4>
                   <p className="text-[11px] text-gray-500 font-medium">Product and Visual Designer</p>
@@ -117,7 +117,7 @@ export default function FeaturesSection() {
                 viewport={{ once: true }}
                 className="flex gap-3 items-start"
               >
-                <Image src="https://picsum.photos/seed/ann/100/100" width={28} height={28} alt="User" className="rounded-full mt-1" />
+                <Image src="https://randomuser.me/api/portraits/women/68.jpg" width={28} height={28} alt="User" className="rounded-full mt-1" />
                 <div className="bg-gray-50 border border-gray-100 p-3.5 rounded-2xl rounded-tl-sm text-[12px] text-gray-700 font-medium leading-relaxed relative">
                   My last project took about 3 months. I developed a web application for shoeworld.com using React and Shopify.
                   <div className="text-[9px] text-gray-400 mt-2 flex items-center justify-between">Developer <Check size={10} /></div>
@@ -145,7 +145,7 @@ export default function FeaturesSection() {
                 viewport={{ once: true }}
                 className="flex gap-3 items-start"
               >
-                <Image src="https://picsum.photos/seed/ann/100/100" width={28} height={28} alt="User" className="rounded-full mt-1" />
+                <Image src="https://randomuser.me/api/portraits/women/68.jpg" width={28} height={28} alt="User" className="rounded-full mt-1" />
                 <div className="bg-gray-50 border border-gray-100 p-3.5 rounded-2xl rounded-tl-sm text-[12px] text-gray-700 font-medium leading-relaxed relative">
                   I made sure that all product data was included and that the data was processed correctly using REST.
                   <div className="text-[9px] text-gray-400 mt-2 flex items-center justify-between">Developer <Check size={10} /></div>
@@ -178,7 +178,7 @@ export default function FeaturesSection() {
             {/* UI Mock Card */}
             <div className="bg-white rounded-2xl shadow-[0_20px_50px_-10px_rgba(0,0,0,0.05)] p-5 border border-white/50 w-full max-w-[320px]">
               <div className="flex items-center gap-3 mb-5 border-b border-gray-50 pb-4">
-                <Image src="https://picsum.photos/seed/ann/100/100" width={32} height={32} alt="Ann Hall" className="rounded-full shadow-sm" />
+                <Image src="https://randomuser.me/api/portraits/women/68.jpg" width={32} height={32} alt="Ann Hall" className="rounded-full shadow-sm" />
                 <div>
                   <h4 className="font-bold text-[13px] text-gray-900">Ann Hall</h4>
                   <p className="text-[10px] text-gray-500 font-medium">Product and Visual Designer</p>

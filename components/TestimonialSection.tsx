@@ -9,25 +9,25 @@ const testimonials = [
     quote: "Finally, a way to find devs that can actually, you know, code. Résumés are so old-school. Show me the skills!",
     author: "Huzaifa Shoukat",
     role: "CEO at Accento AI",
-    image: "https://picsum.photos/seed/huzaifa/100/100"
+    image: "https://randomuser.me/api/portraits/men/22.jpg"
   },
   {
     quote: "Devpilot is a fantastic innovation in the hiring space. It gives us the flexibility to find the right talent quickly and easily.",
     author: "Anna Ho",
     role: "CEO at Eolink",
-    image: "https://picsum.photos/seed/anna/100/100"
+    image: "https://randomuser.me/api/portraits/women/24.jpg"
   },
   {
     quote: "Devpilot transformed how we scale our engineering teams.It gives us the flexibility to find the right talent",
     author: "Sarah Jenkins",
     role: "CTO @ TechFlow",
-    image: "https://picsum.photos/seed/ceo/100/100"
+    image: "https://randomuser.me/api/portraits/women/12.jpg"
   },
   {
     quote: "It's surely a killing tool for developers to save time and focus on doing their actual dev work instead of endless interviews.",
     author: "David Smith",
     role: "Lead Engineer @ Alipay",
-    image: "https://picsum.photos/seed/david/100/100"
+    image: "https://randomuser.me/api/portraits/men/15.jpg"
   }
 ];
 

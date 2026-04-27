@@ -13,8 +13,8 @@ export default function CTASection() {
           </p>
         </div>
         <div className="flex flex-col sm:flex-row gap-4 shrink-0 mt-4 md:mt-0">
-          <button className="bg-[#111113] hover:bg-black text-white font-semibold px-8 py-3.5 rounded-2xl shadow-[0_10px_30px_-5px_rgba(0,0,0,0.2)] transition-all hover:scale-[1.03]">Start Hiring</button>
-          <button className="bg-white border border-gray-200 hover:bg-gray-50 text-gray-900 font-semibold px-8 py-3.5 rounded-2xl shadow-sm transition-all hover:scale-[1.03]">Talk to us</button>
+          <button className="bg-gradient-to-b from-[#2a2a2c] to-[#111113] hover:from-[#111113] hover:to-black text-gray-100 font-semibold px-8 py-3.5 rounded-full shadow-[0_10px_30px_-10px_rgba(0,0,0,0.6)] transition-all hover:scale-[1.03]">Start Hiring</button>
+          <button className="bg-white border border-gray-200 hover:bg-gray-50 text-gray-900 font-semibold px-8 py-3.5 rounded-full shadow-sm transition-all hover:scale-[1.03]">Talk to us</button>
         </div>
       </div>
     </section>

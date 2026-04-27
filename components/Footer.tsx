@@ -1,13 +1,13 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
     <footer className="footer bg-white pt-20 pb-8 px-6 flex flex-col items-center">
       <div className="max-w-5xl w-full flex flex-col md:flex-row gap-16 justify-between mb-20 border-b border-gray-100 pb-16">
         <div className="max-w-[280px]">
-          <div className="font-bold text-[17px] tracking-tight flex items-center gap-1.5 text-gray-900 mb-6">
-            <span className="bg-gray-100 flex items-center justify-center w-7 h-7 rounded-md font-mono text-[11px] font-bold border border-gray-200">dp</span> 
-            devpilot
+          <div className="mb-6">
+            <Image src="/logo.png" alt="Devpilot Logo" width={120} height={36} className="h-8 w-auto object-contain" />
           </div>
           <h4 className="font-bold text-gray-900 mb-2">Start your 7-day free trial</h4>
           <p className="text-xs text-gray-500 leading-relaxed font-medium">

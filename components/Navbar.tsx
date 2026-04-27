@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowUpRight } from 'lucide-react';
+import Image from 'next/image';
 
 const navLinks = [
   { name: 'Features', href: '#' },
@@ -21,10 +22,7 @@ export default function Navbar() {
         className="bg-white/80 backdrop-blur-xl px-4 py-2.5 rounded-full border border-gray-200/60 shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex items-center justify-between w-full max-w-4xl"
       >
         <div className="flex items-center pl-2">
-          <span className="font-bold text-[17px] tracking-tight flex items-center gap-1.5 text-gray-900">
-            <span className="bg-gray-100 flex items-center justify-center w-7 h-7 rounded-md font-mono text-[11px] font-bold border border-gray-200">dp</span>
-            devpilot
-          </span>
+          <Image src="/logo.png" alt="Devpilot Logo" width={110} height={32} className="h-7 w-auto object-contain" />
         </div>
         <div className="hidden md:flex items-center gap-8 text-[13px] font-semibold tracking-wide text-gray-500">
           {navLinks.map((link) => (
