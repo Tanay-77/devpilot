@@ -6,10 +6,10 @@ import { ArrowUpRight } from 'lucide-react';
 import Image from 'next/image';
 
 const navLinks = [
-  { name: 'Features', href: '#' },
-  { name: 'Smart recruitment', href: '#' },
-  { name: 'Pricing', href: '#' },
-  { name: 'Blog', href: '#' },
+  { name: 'Features', href: '#features' },
+  { name: 'Smart recruitment', href: '#smart-recruitment' },
+  { name: 'Pricing', href: '#pricing' },
+  { name: 'Tstm', href: '#testimonials' },
 ];
 
 export default function Navbar() {

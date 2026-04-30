@@ -33,7 +33,7 @@ const testimonials = [
 
 export default function TestimonialSection() {
   return (
-    <section className="py-24 bg-[#FCFDFD] border-t border-gray-100 flex flex-col items-center overflow-hidden">
+    <section id="testimonials" className="py-24 bg-[#FCFDFD] border-t border-gray-100 flex flex-col items-center overflow-hidden">
       <div className="max-w-3xl mx-auto px-6 text-center mb-16">
         <h2 className="text-4xl font-bold tracking-tight mb-3 text-gray-900">Loved by teams <span className="font-serif italic font-medium tracking-normal text-gray-800">Worldwide</span></h2>
         <p className="text-gray-500 font-medium text-lg">See what our clients have to say about their hiring experience.</p>

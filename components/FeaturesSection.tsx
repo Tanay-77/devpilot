@@ -7,7 +7,7 @@ import { Briefcase, Check, PenTool, Sparkles, User } from 'lucide-react';
 
 export default function FeaturesSection() {
   return (
-    <section className="py-24 px-6 md:px-12 w-full max-w-6xl mx-auto relative z-20">
+    <section id="features" className="py-24 px-6 md:px-12 w-full max-w-6xl mx-auto relative z-20">
       <div className="flex flex-col md:flex-row justify-between md:items-start gap-10 mb-20">
         <h2 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900 flex-1">
           Hiring Made <span className="font-serif italic font-medium tracking-normal text-gray-800">Easy</span>

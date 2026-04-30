@@ -7,7 +7,7 @@ import { Sparkles, Wand2, ClipboardCheck, FileText, User, MessageSquare, LayoutL
 
 export default function DataDrivenSection() {
   return (
-    <section className="py-24 px-6 md:px-12 w-full max-w-6xl mx-auto relative z-20">
+    <section id="smart-recruitment" className="py-24 px-6 md:px-12 w-full max-w-6xl mx-auto relative z-20">
       <div className="flex flex-col items-start mb-8">
         <div className="border border-gray-200 rounded-full px-4 py-1.5 text-[12px] font-bold text-gray-600 bg-white shadow-sm inline-block mb-6">
           Smart hiring
